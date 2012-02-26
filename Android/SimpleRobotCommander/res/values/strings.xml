@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">RobotSimpleControl</string>
+<string name="appVersion">1.0</string>
+<string name="hello">Simple Robot Control</string>
+<string name="avoidance_enabled">Avoiding...</string>
+<string name="avoidance_disabled">Just going</string>
+<string name="command">Hold and tilt for control</string>
+<string name="stop">STOP!</string>
+<string name="acc">Accel data:</string>
+<string name="connected">Disconnect from device</string>
+<string name="disconnected">Connect to a device</string>
+<string name="no_bt_device">Bluetooth is not available.</string>
+<string name="bt_not_enabled_leaving">Bluetooth was not enabled.</string>
+<string name="macFailed">Error retrieving MAC address.</string>
+<string name="about_title">About</string>
+<string name="aboutText">Application made by Andrey Prikupets by transforming Eirik Taylor\'s blu_car application, 2012.</string>
+<string name="website_url">http://uzzors2k.4hv.org/index.php?page=blucar</string>
+<string name="websiteButton">Visit Eirik Taylor\'s blu_car Website</string>
+<string name="okButton">OK</string>
+<string name="pleaseWait">Please Wait</string>
+<string name="makingConnectionString">Connecting to bluetooth device...</string>
+<string name="failedToConnect">Failed to connect to device.</string>
+
+<!-- DeviceListActivity -->
+ <string name="scanning">scanning for devices...</string>
+ <string name="select_device">select a device to connect</string>
+ <string name="none_paired">No devices have been paired</string>
+ <string name="none_found">No devices found</string>
+ <string name="title_paired_devices">Paired Devices</string>
+ <string name="title_other_devices">Other Available Devices</string>
+ <string name="button_scan">Scan for devices</string>
+ <string name="accFormatXY" formatted="false">Acc: %.1f, %.1f; Deg: %d, %d; Spd: %d, %d</string>
+ <string name="no_acc">No accelerometer found.</string>
+</resources>
