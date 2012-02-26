@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+	<TextView  android:id="@+id/text1"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="@string/hello"
+        android:gravity="center_horizontal"/>
+    
+    <Button android:id="@+id/connect_button"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1" 
+    	android:text="@string/disconnected"/>
+    	
+    <Button android:id="@+id/avoidance_button"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+    	android:text="@string/avoidance_disabled"/>
+
+    <TextView  android:id="@+id/accText"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="@string/acc"/>
+
+    <Button android:id="@+id/command_button"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	android:layout_weight="5"
+    	android:text="@string/command"
+        android:hapticFeedbackEnabled="true"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    	
+    <Button android:id="@+id/stop_button"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	android:layout_weight="2"
+    	android:text="@string/stop"
+        android:hapticFeedbackEnabled="true"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    	
+</LinearLayout>
